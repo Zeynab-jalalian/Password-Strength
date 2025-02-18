@@ -11,7 +11,7 @@
         <header>Password Strength Indicator <br>in HTML CSS & JavaScript</header>
         <form action="#">
             <div class="field">
-                <input type="password" placeholder="Type Password">
+                <input type="password" placeholder="Type Password" onkeyup="trigger()">
                 <span class="showBtn">SHOW</span>
             </div>
             <div class="indicator">
@@ -22,5 +22,7 @@
             <div class="text">Your Password is too weak</div>
         </form>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
