@@ -53,6 +53,7 @@ form .field{
     cursor: pointer;
     font-size: 15px;
     font-weight: 600;
+    display: none;
 }
 form .indicator{
     height: 10px;
